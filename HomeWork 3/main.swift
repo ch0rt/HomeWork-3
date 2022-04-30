@@ -100,6 +100,14 @@ import Foundation
 //print(pointDistance)
 
 
+//let pointOne:(Double, Double) = (x: 23, y: 45)
+//let pointTwo:(Double, Double) = (x: 46, y: 9)
+//let pointDistance = sqrt(pow(pointOne.0 - pointTwo.0, 2) + pow(pointOne.1 - pointTwo.1, 2))
+
+//print(pointDistance)
+
+
+
 
 //HomeWork 3_7
 //հայտարարել Optional հաստատւներ a = 12,  b = -34.55, hiText = “Hello”, itIsBool = true,
@@ -115,16 +123,16 @@ import Foundation
 //հայտարարել Optional հաստատւներ a = 12,  b = -34.55, hiText = “Hello”, itIsBool = true,
 //տերնարնի և ?? օպերատոռների միջոցով վերցնել արժեքները և վերագրել a_ b_ hiText_ itIsBool_  հաստատւներին իսկ եթե Optional-ի արժեքը nil է ապա համապտասղանաբառ վերագրել 0, -1, “nil”, false
 
+
 //let a: Int? = 12
 //let b: Double? = -34.55
 //let hiText: String? = "Hello"
 //let itIsBool: Bool = true
-
-
+//
 //let a_ = a == nil ? 0 :a!
 //let b_ = b == nil ? -1 : b!
 //let hiText_ = hiText == nil ? "nil" : hiText!
-//let itIsBool_ = itIsBool == nil ? false : itIsBool //boolean-@ nil chi krna exni
+//let itIsBool_ = itIsBool == nil ? false : itIsBool
 
 //let a_:Int = a ?? 0
 //let b_:Double = b ?? -1
@@ -135,6 +143,4 @@ import Foundation
 //print(b_)
 //print(hiText_)
 //print(itIsBool_)
-
-
 

@@ -34,11 +34,10 @@ import Foundation
 //let hiText = "Hello"
 //let itIsBool = true
 
-//var all: (Int, Double, String, Bool ) = (a , b, hiText, itIsBool )
-//var b1 = all.1    //newAll.1 = 12.5125
-//b1 = 12.5125
-
-//print(b1)
+//var all: (Int, Double, String, Bool ) = (12 , -34.55, "hiText", true )
+//all.1 = 12.5125
+//
+//print(all.1)
 
 
 //HomeWork 3_3
@@ -51,11 +50,10 @@ import Foundation
 //let b = -34.55
 //let hiText = "Hello"
 //let itIsBool = true
-//
 //var all = (a , b, hiText, itIsBool )
-//var newA = all.0 * 2
+//all.0 = all.0 * 2
 //
-//print(newA)
+//print(all.0)
 
 
 //HomeWork 3_4
@@ -128,7 +126,7 @@ import Foundation
 //let b: Double? = -34.55
 //let hiText: String? = "Hello"
 //let itIsBool: Bool = true
-//
+
 //let a_ = a == nil ? 0 :a!
 //let b_ = b == nil ? -1 : b!
 //let hiText_ = hiText == nil ? "nil" : hiText!
